@@ -1,0 +1,112 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.opening-text {
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    margin: 10px;
+    text-shadow: 1px 1px 0px black /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+
+}
+
+.name {
+    color: #FF5900;
+    font-weight: bold;
+}
+
+.opening-text-wrapper {
+
+
+    margin-top: 200px;
+    max-width: 600px;
+    font-family: monospace; 
+}
+
+.button {
+    margin: auto;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    font-size: 16px;
+    font-family: monospace; 
+    outline:none;
+}
+
+.button:hover {
+    background-color: white; /* Green */
+    color: black;
+}
+
+
+#hero {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.layer {
+	background-position: bottom center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: -1;
+
+}
+
+.layer-bg {
+	background-image: url('../../assets/stars.png');
+    /*background-image: url('../../assets/Endless-Constellation-bg.svg');*/
+    background-color: #2E005C;
+	background-repeat: repeat;
+}
+.layer-1 {
+	background-image: url('../../assets/layers/layer1.png');
+    background-size: cover;
+
+	background-position: left bottom;
+}
+.layer-2 {
+	background-image: url('../../assets/layers/layer2.png');
+    background-size: cover;
+
+    background-position: left bottom;
+}
+.layer-3 {
+    /*background-image: url('../../assets/download.png');*/
+    /*background-image: url('../../assets/fractal-tree.png');*/
+    background-image: url('../../assets/layers/layer3.png');
+    background-size: cover;
+
+    //background-image: url('../../assets/fractal-tree.png');
+
+
+	//background-position: right bottom;
+}
+.layer-4 {
+    background-image: url('../../assets/layers/layer4.png');
+    background-size: cover;
+
+}
+.layer-5 {
+	background-position: left bottom;
+    //background-image: url('../../assets/ground.svg');
+    background-image: url('../../assets/layers/layer5.png');
+    background-size: cover;
+
+
+    bottom: -10px;
+    z-index: 999;
+}

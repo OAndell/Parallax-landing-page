@@ -1,0 +1,40 @@
+.profile-card {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 20px;
+}
+
+
+.photo {
+    background: url('../../../assets/oscar.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    filter: grayscale(50%);
+    border-radius:25px;
+}
+
+.data {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: start;
+}
+
+.bullet-list {
+    margin-left: 1em;
+}
+
+.arrow {
+    color: #8400FF;
+}
+
+.orange {
+    color: #FF5900;
+}
+
+.function {
+    color: #ffbb00;
+}

@@ -1,0 +1,24 @@
+.main-page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    height: 100%;
+    font-family: monospace; 
+    padding: 50px;
+}
+
+
+.main-text {
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    opacity: 0;
+}
+
+
+.opening-text-wrapper {
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
