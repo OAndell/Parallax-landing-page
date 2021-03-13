@@ -87,4 +87,24 @@ export class DataService {
 
         ]
     }
+
+    public getProfileData(): any {
+        return {
+            location: 'Stockholm',
+            employer: 'Vizlib',
+            linkedIn: {
+                text: 'LinkedIn',
+                url: '',
+            },
+            github: {
+                text: 'github/oandell',
+                url: '',
+            },
+            reusume: {
+                text: 'cv.pdf',
+                url: '',
+            },
+            email: 'Oscar@andell.eus'
+        }
+    } 
 }
