@@ -7,24 +7,23 @@
 
 .opening-text {
     text-align: center;
-    color: aliceblue;
+    color: #fff;
     font-size: 40px;
     margin: 10px;
-    text-shadow: 1px 1px 0px black /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-
+    text-shadow: 2px 2px 0px black /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 }
 
 .name {
-    color: #FF5900;
+    //color: #282123;
     font-weight: bold;
 }
 
 .opening-text-wrapper {
 
 
-    margin-top: 200px;
-    max-width: 600px;
-    font-family: monospace; 
+    margin-top: 80px;
+    max-width: 500px;
+    font-family: fantasy; 
 }
 
 .button {
@@ -65,48 +64,74 @@
 	z-index: -1;
 
 }
+.sun {
+    width: 30vw;
+    height: 30vw;
+    min-height: 300px;
+    min-width: 300px;
+
+
+    background-color: #A22C24;
+    border-radius: 50%;
+}
 
 .layer-bg {
-	background-image: url('../../assets/stars.png');
+	//background-image: url('../../assets/stars.png');
     /*background-image: url('../../assets/Endless-Constellation-bg.svg');*/
-    background-color: #2E005C;
-	background-repeat: repeat;
+    //background-color: #E1F097;// #2E005C;
+	//background-repeat: repeat;
+    display: flex;
+    background-image:
+             repeating-conic-gradient(
+                from 3deg at 50% 25%,
+                 #A22C24 1% 9deg, #EBD2B8 9deg 18deg);
+
+    justify-content: center;
 }
 .layer-1 {
-	background-image: url('../../assets/layers/layer1.png');
-    background-size: cover;
-
-	background-position: left bottom;
+	//background-image: url('../../assets/layers/layer1.png');
+    display: flex;
+    justify-content: center;
 }
-.layer-2 {
-	background-image: url('../../assets/layers/layer2.png');
-    background-size: cover;
+.layer-2 {    
+    //background-image: url('../../assets/layers/flags_small.svg');
+    background-image: url('../../assets/layers/logos-black.svg');
 
-    background-position: left bottom;
+    background-size: contain;
+    background-position: 50% 0%;
+
+    max-height: 45%;
+    bottom: 0;
+    bottom: -60px;
+
 }
 .layer-3 {
-    /*background-image: url('../../assets/download.png');*/
-    /*background-image: url('../../assets/fractal-tree.png');*/
-    background-image: url('../../assets/layers/layer3.png');
-    background-size: cover;
 
-    //background-image: url('../../assets/fractal-tree.png');
-
-
-	//background-position: right bottom;
+    background-size: contain;
+	background-image: url('../../assets/layers/flag3-logo.svg');
+    max-height: 65%;
+    background-position: 125% 0%;
+    bottom: 0;
 }
+
+
 .layer-4 {
-    background-image: url('../../assets/layers/layer4.png');
-    background-size: cover;
+    background-image: url('../../assets/layers/logos2_black.svg');
+    background-position: 100% 0%;
+    bottom: 0;
+    background-size: contain;
+    max-height: 70%;
+    bottom: -70px;
+
+
 
 }
 .layer-5 {
 	background-position: left bottom;
-    //background-image: url('../../assets/ground.svg');
-    background-image: url('../../assets/layers/layer5.png');
-    background-size: cover;
+    //background-image: url('../../assets/layers/layer5.png');
+    bottom: 0;
+    
 
-
-    bottom: -10px;
     z-index: 999;
 }
+

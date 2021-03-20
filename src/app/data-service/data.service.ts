@@ -84,6 +84,10 @@ export class DataService {
                 name: 'Node.js',
                 level: 5,
             },
+            {
+                name: 'Kotlin',
+                level: 2,
+            }
 
         ]
     }
