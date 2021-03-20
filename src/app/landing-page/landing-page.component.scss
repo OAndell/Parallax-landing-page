@@ -67,68 +67,71 @@
 .sun {
     width: 30vw;
     height: 30vw;
-    min-height: 300px;
-    min-width: 300px;
+    min-height: 100px;
+    min-width: 100px;
 
+    max-height: 400px;
+    max-width: 400px;
+    position: fixed;
+    left: calc(70% - 15vw);
+    top: calc(25% - 15vh);
 
     background-color: #A22C24;
     border-radius: 50%;
 }
 
 .layer-bg {
-	//background-image: url('../../assets/stars.png');
-    /*background-image: url('../../assets/Endless-Constellation-bg.svg');*/
-    //background-color: #E1F097;// #2E005C;
-	//background-repeat: repeat;
     display: flex;
     background-image:
              repeating-conic-gradient(
-                from 3deg at 50% 25%,
+                from 3deg at 70% 25%,
                  #A22C24 1% 9deg, #EBD2B8 9deg 18deg);
 
     justify-content: center;
+    
 }
 .layer-1 {
-	//background-image: url('../../assets/layers/layer1.png');
+	background-image: url('../../assets/layers/skyline.png');
     display: flex;
     justify-content: center;
+    background-size: contain;
 }
 .layer-2 {    
-    //background-image: url('../../assets/layers/flags_small.svg');
     background-image: url('../../assets/layers/logos-black.svg');
 
     background-size: contain;
-    background-position: 50% 0%;
 
     max-height: 45%;
     bottom: 0;
-    bottom: -60px;
+    width: 50vw;    
+    right: 30%;
 
 }
 .layer-3 {
 
     background-size: contain;
 	background-image: url('../../assets/layers/flag3-logo.svg');
-    max-height: 65%;
-    background-position: 125% 0%;
     bottom: 0;
+    width: 50vw;    
+    right: 0px;
+
+
 }
 
 
 .layer-4 {
     background-image: url('../../assets/layers/logos2_black.svg');
-    background-position: 100% 0%;
     bottom: 0;
     background-size: contain;
-    max-height: 70%;
+    width: 50vw;
     bottom: -70px;
+    right: 0px;
 
 
 
 }
 .layer-5 {
 	background-position: left bottom;
-    //background-image: url('../../assets/layers/layer5.png');
     bottom: 0;
     
 
