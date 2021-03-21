@@ -50,6 +50,7 @@
 
 #hero {
 	height: 100vh;
+    width: 100vw;
 	overflow: hidden;
 	position: relative;
 }
@@ -58,7 +59,7 @@
 	background-position: bottom center;
 	background-size: auto;
 	background-repeat: no-repeat;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	position: fixed;
 	z-index: -1;
@@ -97,13 +98,10 @@
     background-size: contain;
 }
 .layer-2 {    
-    background-image: url('../../assets/layers/logos-black.svg');
+    background-image: url('../../assets/layers/flag-smaller.svg');
 
     background-size: contain;
-
-    max-height: 45%;
-    bottom: 0;
-    width: 50vw;    
+    width: 50vw; 
     right: 30%;
 
 }
@@ -111,7 +109,7 @@
 
     background-size: contain;
 	background-image: url('../../assets/layers/flag3-logo.svg');
-    bottom: 0;
+    //bottom: 0;
     width: 50vw;    
     right: 0px;
 
@@ -121,10 +119,10 @@
 
 .layer-4 {
     background-image: url('../../assets/layers/logos2_black.svg');
-    bottom: 0;
+   // bottom: 0;
     background-size: contain;
     width: 50vw;
-    bottom: -70px;
+    //bottom: -70px;
     right: 0px;
 
 
@@ -132,7 +130,7 @@
 }
 .layer-5 {
 	background-position: left bottom;
-    bottom: 0;
+    //bottom: 0;
     
 
     z-index: 999;
