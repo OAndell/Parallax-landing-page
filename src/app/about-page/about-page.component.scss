@@ -6,11 +6,19 @@
     color: white;
 }
 
+
 .content {
     display: flex;
     flex-flow: row-reverse;
 }
 
+@media only screen and (max-width: 600px) {
+    .content  {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+}
 .title {
     font-size: 80px;
     margin-right: 50px;

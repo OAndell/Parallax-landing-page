@@ -6,9 +6,23 @@
     height: 100%;
     width: 100%;
     font-family: monospace; 
-    padding: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .main-page-wrapper  {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .word-cloud {
+        transform: scale(0.5);
+    }
+
 }
 
+
+.right-col{
+    width: 100%;
+}
 
 .main-text {
     text-align: center;
