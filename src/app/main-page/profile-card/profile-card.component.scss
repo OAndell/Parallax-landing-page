@@ -8,6 +8,7 @@
 }
 
 
+
 .photo {
     background: url('../../../assets/oscar.jpg');
     background-size: cover;
@@ -37,4 +38,11 @@
 
 .function {
     color: #ffbb00;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .profile-card {
+        width: auto;
+    }
 }
