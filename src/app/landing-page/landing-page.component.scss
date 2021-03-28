@@ -67,16 +67,11 @@
 
 }
 .sun {
-    width: 30vw;
-    height: 30vw;
-    min-height: 100px;
-    min-width: 100px;
-
-    max-height: 400px;
-    max-width: 400px;
+    width: 300px;
+    height: 300px;
     position: fixed;
-    left: calc(70% - 15vw);
-    top: calc(25% - 15vh);
+    left: calc(70% - 150px);
+    top: calc(25% - 150px);
 
     background-color: #A22C24;
     border-radius: 50%;

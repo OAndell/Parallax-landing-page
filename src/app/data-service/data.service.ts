@@ -1,11 +1,10 @@
-import { Injectable } from "@angular/core";
-import { SkillItem } from "./data.model";
+import { Injectable } from '@angular/core';
+import { ProfileData, SkillItem } from './data.model';
 
 @Injectable({
     providedIn: 'root',
 })
 export class DataService {
-
     public getSkillList(): SkillItem[] {
         return [
             {
@@ -14,11 +13,11 @@ export class DataService {
             },
             {
                 name: 'CSS',
-                level: 5 
+                level: 5,
             },
             {
                 name: 'TypeScript',
-                level: 9 
+                level: 9,
             },
             {
                 name: 'JavaScript',
@@ -87,12 +86,11 @@ export class DataService {
             {
                 name: 'Kotlin',
                 level: 2,
-            }
-
-        ]
+            },
+        ];
     }
 
-    public getProfileData(): any {
+    public getProfileData(): ProfileData {
         return {
             location: 'Stockholm',
             employer: 'Vizlib',
@@ -102,13 +100,13 @@ export class DataService {
             },
             github: {
                 text: 'github/oandell',
-                url: '',
+                url: 'https://github.com/OAndell',
             },
             reusume: {
                 text: 'cv.pdf',
-                url: '',
+                url: 'https://drive.google.com/file/d/1mSyWhLg_nIY8-Y4mIKmlz15DazuTFeyR/view',
             },
-            email: 'Oscar@andell.eus'
-        }
-    } 
+            email: 'Oscar@andell.eu',
+        };
+    }
 }

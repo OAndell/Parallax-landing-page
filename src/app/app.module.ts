@@ -10,19 +10,17 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { HeaderComponent } from './header/header.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LandingPageComponent,
-    MainPageComponent,
-    ProfileCardComponent,
-    WordCloudComponent,
-    AboutPageComponent,
-    HeaderComponent,
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        LandingPageComponent,
+        MainPageComponent,
+        ProfileCardComponent,
+        WordCloudComponent,
+        AboutPageComponent,
+        HeaderComponent,
+    ],
+    imports: [BrowserModule],
+    providers: [],
+    bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { Injectable } from '@angular/core';
 import { gsap } from 'gsap';
 import { ScrollTrigger, ScrollToPlugin, TweenMax } from 'gsap/all';
 
@@ -6,7 +6,6 @@ import { ScrollTrigger, ScrollToPlugin, TweenMax } from 'gsap/all';
     providedIn: 'root',
 })
 export class AnimationService {
-
     private gsap!: any;
 
     constructor() {
@@ -16,13 +15,11 @@ export class AnimationService {
         this.gsap.registerPlugin(TweenMax);
     }
 
-    public scrollToMainPage(){
-        gsap.to(window, {scrollTo: '.main-page', duration: 2 });
+    public scrollToMainPage() {
+        gsap.to(window, { scrollTo: '.main-page', duration: 2 });
     }
 
     public getGsap(): any {
         return this.gsap;
     }
-
-
 }
